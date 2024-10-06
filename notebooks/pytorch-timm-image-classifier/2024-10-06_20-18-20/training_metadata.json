@@ -1,0 +1,9 @@
+{
+    "epoch": 7,
+    "train_loss": 0.5564392616874293,
+    "valid_loss": 0.3960661768913269,
+    "train_accuracy": 0.8972039222717285,
+    "valid_accuracy": 0.9342105388641357,
+    "learning_rate": 1.8983913883280515e-05,
+    "model_architecture": "ResNet"
+}

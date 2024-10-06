@@ -1,0 +1,61 @@
+Some weights of MobileViTForImageClassification were not initialized from the model checkpoint at apple/mobilevit-small and are newly initialized because the shapes did not match:
+- classifier.weight: found shape torch.Size([1000, 640]) in the checkpoint and torch.Size([10, 640]) in the model instantiated
+- classifier.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([10]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Path exist Y:\ML\datasets\barks\Barks
+Class weights:  [0.93312883 1.07112676 0.72428571 1.04178082 0.81774194 1.24672131
+ 1.04178082 1.17       1.06363636 1.14360902]
+Class weights tensor:  tensor([0.9331, 1.0711, 0.7243, 1.0418, 0.8177, 1.2467, 1.0418, 1.1700, 1.0636,
+        1.1436], device='cuda:0')
+Some weights of ResNetForImageClassification were not initialized from the model checkpoint at microsoft/resnet-34 and are newly initialized because the shapes did not match:
+- classifier.1.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([10]) in the model instantiated
+- classifier.1.weight: found shape torch.Size([1000, 512]) in the checkpoint and torch.Size([10, 512]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Some weights of ResNetForImageClassification were not initialized from the model checkpoint at microsoft/resnet-34 and are newly initialized because the shapes did not match:
+- classifier.1.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([10]) in the model instantiated
+- classifier.1.weight: found shape torch.Size([1000, 512]) in the checkpoint and torch.Size([10, 512]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Some weights of ResNetForImageClassification were not initialized from the model checkpoint at microsoft/resnet-34 and are newly initialized because the shapes did not match:
+- classifier.1.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([10]) in the model instantiated
+- classifier.1.weight: found shape torch.Size([1000, 512]) in the checkpoint and torch.Size([10, 512]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+KeyboardInterrupt
+Path exist Y:\ML\datasets\barks\Barkley
+Class weights:  [0.99737705 0.85449438 0.98766234 1.10217391 1.10217391]
+Class weights tensor:  tensor([0.9974, 0.8545, 0.9877, 1.1022, 1.1022], device='cuda:0')
+KeyboardInterrupt
+Path exist Y:\ML\datasets\barks\Barkley
+Class weights:  [0.99737705 0.85449438 0.98766234 1.10217391 1.10217391]
+Class weights tensor:  tensor([0.9974, 0.8545, 0.9877, 1.1022, 1.1022], device='cuda:0')
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Some weights of ResNetForImageClassification were not initialized from the model checkpoint at microsoft/resnet-34 and are newly initialized because the shapes did not match:
+- classifier.1.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([5]) in the model instantiated
+- classifier.1.weight: found shape torch.Size([1000, 512]) in the checkpoint and torch.Size([5, 512]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+***** train metrics *****
+  epoch                    =        10.0
+  total_flos               = 272343604GF
+  train_loss               =         0.0
+  train_runtime            =  0:00:00.16
+  train_samples_per_second =   95017.424
+  train_steps_per_second   =    5997.155
+***** eval metrics *****
+  epoch                   =       10.0
+  eval_accuracy           =        1.0
+  eval_loss               =     0.0051
+  eval_runtime            = 0:00:11.08
+  eval_samples_per_second =      2.797
+  eval_steps_per_second   =       0.18

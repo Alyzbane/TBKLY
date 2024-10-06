@@ -1,0 +1,11 @@
+pytorch-timm-image-classifier\2024-10-06_20-18-20\resnet18.a1_in1k.pth
+pytorch-timm-image-classifier\2024-10-06_20-18-20\barks-classes.json
+Class Counts: Counter({1: 285, 0: 248, 2: 243, 3: 223, 4: 217})
+Class Weights: [0.1943364  0.16910676 0.19833509 0.21612299 0.22209875]
+Class Weights Tensor: tensor([0.1943, 0.1691, 0.1983, 0.2161, 0.2221], device='cuda:0')
+Class Index  | Class Count  | Class Weight
+0            | 248          | 0.194336
+1            | 285          | 0.169107
+2            | 243          | 0.198335
+3            | 223          | 0.216123
+4            | 217          | 0.222099

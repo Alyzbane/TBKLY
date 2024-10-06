@@ -1,0 +1,52 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-10-06T19:29:22.722060",
+    "startedAt": "2024-10-06T19:29:21.474428",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "TBKLY/notebooks/image_classification.ipynb",
+    "codePathLocal": null,
+    "root": "Y:/ML/notebooks/TBKLY",
+    "git": {
+        "remote": "https://github.com/Alyzbane/TBKLY.git",
+        "commit": "1a77c8bf8ab5a03b50dfcdfc8a18984a3289c627"
+    },
+    "email": "alyzbane@gmail.com",
+    "host": "ALYZBANE",
+    "username": "alyz",
+    "executable": "E:\\venv\\ml\\Scripts\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.4794883728027,
+            "used": 596.0615653991699
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.711418151855469
+    }
+}

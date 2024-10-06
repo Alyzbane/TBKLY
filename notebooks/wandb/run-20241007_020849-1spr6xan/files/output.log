@@ -1,0 +1,29 @@
+Cache path set on Y:/.cache/
+Token is valid (permission: write).
+Your token has been saved in your configured git credential helpers (manager,store).
+Your token has been saved to Y:/.cache/token
+Login successful
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+No validation set found, splitting train set into train/validation.
+No test set found, splitting validation set into validation/test.
+Train size: 247
+Validation size: 31
+Test size: 31
+Class weights:  [1.3        1.12272727 0.95       0.988      1.02916667 0.88214286
+ 0.95       0.95       0.988      0.95      ]
+Class weights tensor:  tensor([1.3000, 1.1227, 0.9500, 0.9880, 1.0292, 0.8821, 0.9500, 0.9500, 0.9880,
+        0.9500], device='cuda:0')
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 17827277GF
+  train_loss               =     1.0925
+  train_runtime            = 0:05:23.91
+  train_samples_per_second =      0.763
+  train_steps_per_second   =      0.025
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_accuracy           =     0.8387
+  eval_loss               =     0.9108
+  eval_runtime            = 0:00:15.42
+  eval_samples_per_second =       2.01
+  eval_steps_per_second   =      0.065
